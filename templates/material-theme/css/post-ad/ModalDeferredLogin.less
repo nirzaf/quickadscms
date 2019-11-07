@@ -1,0 +1,261 @@
+.ModalDeferredLogin {
+  @this: ModalDeferredLogin;
+  height: 610px;
+  overflow: hidden;
+
+  .@{this}-body {
+    margin: 0 auto;
+  }
+
+  &-btn {
+    &:not(:last-child) {
+      margin-bottom: @spacing-small;
+    }
+  }
+
+  &-header {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: @spacing-mid;
+
+    &-logo {
+      display: flex;
+      flex-grow: 2;
+      justify-content: center;
+    }
+
+    &-icon {
+      height: 60px;
+      justify-self: center;
+      width: 60px;
+    }
+  }
+
+  &-title {
+    .type(section);
+    font-weight: normal;
+    margin: @spacing-xxsmall auto @spacing-mid;
+    max-height: 200px;
+    max-width: 100%;
+    text-align: center;
+    /* Can't use .text-wrap because of hyphens */
+    word-break: break-word;
+    word-wrap: break-word;
+  }
+
+  &-subtitle {
+    .type(heading3);
+    color: @text-color-mid;
+    font-weight: normal;
+    margin-bottom: @spacing-large;
+    text-align: center;
+  }
+
+  &-body {
+    overflow: hidden;
+  }
+
+  &-warningPanel {
+    display: none;
+    margin-bottom: @spacing-mid;
+    position: relative;
+
+    &.is-active {
+      display: block;
+    }
+  }
+
+  &-welcomePanel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: @spacing-mid;
+    margin-top: @spacing-large;
+    position: relative;
+
+    &-loadingLogo {
+      height: 250px;
+      width: 250px;
+    }
+  }
+
+  .ModalDeferredLogin-form {
+    min-height: 350px;
+    position: relative;
+
+    &-fieldset {
+      .transition(@time: .3s, @ease: linear, @prop: all);
+      margin-bottom: 0;
+      min-height: inherit;
+      opacity: 0;
+      position: absolute;
+      visibility: hidden;
+      width: 100%;
+
+      &--step2 {
+        .transform(translateX(calc(~"100% + @{spacing-large}")));
+      }
+
+      &--step3 {
+        .transform(translateX(calc(~"200% + @{spacing-large}")));
+      }
+
+      .AuthForm-externalAuth {
+        margin-top: @spacing-xlarge;
+      }
+    }
+
+    &-step {
+      &--center {
+        text-align: center;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+    &-cta {
+      margin: auto;
+      max-width: 334px;
+    }
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: @spacing-mid;
+
+    &-buffer {
+      &--small {
+        flex: 1 0 25%;
+      }
+
+      &--medium {
+        flex: 1 0 50%;
+        text-align: center;
+      }
+    }
+
+    &-buttons {
+      display: flex;
+      flex: 1 0 25%;
+      justify-content: flex-end;
+    }
+  }
+
+  &.is-@{this}-step1-active {
+    .@{this}-form-fieldset--step1 {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &.is-@{this}-step2-active {
+    .@{this}-form-fieldset {
+      &--step1 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step2 {
+        .transform(translateX(0));
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &--step3 {
+        .transform(translateX(calc(~"100% + @{spacing-large}")));
+      }
+
+      &--step4 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step5 {
+        .transform(translateX(calc(~"100% - @{spacing-large}")));
+      }
+    }
+  }
+
+  &.is-@{this}-step3-active {
+    .@{this}-form-fieldset {
+      &--step1 {
+        .transform(translateX(calc(~"-200% - @{spacing-large}")));
+      }
+
+      &--step2 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step3 {
+        .transform(translateX(0));
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &--step4 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step5 {
+        .transform(translateX(calc(~"100% - @{spacing-large}")));
+      }
+    }
+  }
+
+  &.is-@{this}-step4-active {
+    .@{this}-form-fieldset {
+      &--step1 {
+        .transform(translateX(calc(~"-200% - @{spacing-large}")));
+      }
+
+      &--step2 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step3 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step4 {
+        .transform(translateX(0));
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &--step5 {
+        .transform(translateX(calc(~"100% - @{spacing-large}")));
+      }
+    }
+  }
+
+  &.is-@{this}-step5-active {
+    .@{this}-form-fieldset {
+      &--step1 {
+        .transform(translateX(calc(~"-200% - @{spacing-large}")));
+      }
+
+      &--step2 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step3 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step4 {
+        .transform(translateX(calc(~"-100% - @{spacing-large}")));
+      }
+
+      &--step5 {
+        .transform(translateX(0));
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+}

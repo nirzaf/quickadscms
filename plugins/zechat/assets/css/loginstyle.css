@@ -1,0 +1,191 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body.login { background: url(../img/bg.jpg); }
+h2 { font-size: 30px; line-height:38px; font-weight:normal; }
+.loginbox { background: #FBFCFD; padding: 10px; width: 490px; margin: 4% auto 0 auto; position: relative; }
+.loginboxinner {
+    background: #FBFCFD; padding: 5px; position: relative; border: 1px solid #FBFCFD;
+    -moz-box-shadow: inset 0 1px 0 #FBFCFD; -webkit-box-shadow: inset 0 1px 0 #FBFCFD; box-shadow: inset 0 1px 0 #FBFCFD;
+}
+.loginheader { height: 20px; }
+.loginform { margin: 4px auto; text-align:center; }
+
+.loginbox h1 { font-size: 30px; letter-spacing: 1px; color: #555; font-weight: normal; padding-top: 10px; }
+.loginbox p { margin: 7px 0 5px 0; }
+.loginbox label { display: block; color: #666; letter-spacing: 1px; font-size: 18px; }
+.loginbox input.mini { width:195px; }
+.loginbox input {
+    padding: 12px 10px; color: #ccc;
+    font-family: Arial, Helvetica, sans-serif; margin-top: 8px; font-size: 15px; border: 1px solid #ccc; width: 420px;  outline: none;
+}
+.loginbox #signup-button {
+    background: #5870A8; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); padding: 10px 20px; font-size: 18px; border: 1px solid #1D3871; letter-spacing: 1px; color: #fff; width: 440px; line-height:30px; font-family:	'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -moz-box-shadow: 1px 1px 3px #1D3871; -webkit-box-shadow: 1px 1px 3px #1D3871; box-shadow: 1px 1px 3px #1D3871; cursor: pointer;
+}
+
+.radius { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.radius1 { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.title { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#8E989E; line-height:28px; font-weight:normal; text-align:center; font-size:16px; }
+
+
+@media screen and (max-width: 430px) {
+
+    body { font-size: 11px; }
+    button, input, select, textarea { font-size: 11px; }
+
+    .loginbox { width: auto; margin: 10px; }
+    .loginbox input { width: 95%; }
+    .loginbox button { width: 100%; }
+}
+
+
+#facebook-Bar {
+    background:#45619D;
+    border-bottom: 1px solid #0053A6;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.52);
+    min-width: 1000px;
+    width: 100%;
+    z-index: 1000;
+}
+#facebook-Frame {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1000px;
+    height:70px;
+    display:block;
+}
+/*-------LOGO-----------*/
+#logo {
+    float: left;
+    height: 70px;
+    position: relative;
+    width: 160px;
+}
+#logo a {
+    position: absolute;
+    top: 20px;
+    font-size:23px; font-weight:bold; color:#FFF;
+    text-decoration:none;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*-------Login-----------*/
+#header-main-right {
+    float: right;
+    height: 68px;
+    position: relative;
+    top:5px;
+}
+#header-main-right-nav {
+    padding: 4px 6px 4px 4px;
+    position: absolute;
+    right: 0;
+}
+#login_form .inputtext {
+    background-color: #FFFFFF;
+    height:16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 8px 5px 8px;
+    width: 166px;
+    border:1px solid #3A518A;
+}
+#login_form .inputtext:hover {
+    border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#login_form table tr td {
+    padding: 0 0 0 5px;
+}
+#login_form table tr td label {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 1px;
+    text-align: left;
+    vertical-align: middle;
+}
+.fbbutton { background: #5870A8; cursor:pointer;  padding: 4px 10px; border:1px solid #1D3871; width:94px; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); font-size:14px; line-height:25px; font-weight:normal; color:#fff; }
+
+/*Social Login Button Design*/
+/* Shared */
+.loginBtn {
+    box-sizing: border-box;
+    position: relative;
+    /* width: 13em;  - apply for fixed size */
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+}
+.loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+}
+.loginBtn:focus {
+    outline: none;
+}
+.loginBtn:active {
+    box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+    border-right: #364e92 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* Google */
+.loginBtn--google {
+    /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+    background: #DD4B39;
+}
+.loginBtn--google:before {
+    border-right: #BB3F30 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+    background: #E74B37;
+}
+/*Social Login Button Design*/

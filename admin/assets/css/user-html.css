@@ -1,0 +1,107 @@
+
+.user-html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    overflow: auto
+}
+
+.user-html p {
+    margin-bottom: 20px;
+    padding: 0
+}
+
+.user-html p:last-child {
+    margin-bottom: 0
+}
+
+.user-html small {
+    color: #909090;
+    font-size: 12px
+}
+
+.user-html ol, .user-html ul {
+    margin-bottom: 20px;
+    padding-left: 25px
+}
+
+.user-html ol:last-child, .user-html ul:last-child {
+    margin-bottom: 0
+}
+
+.user-html ol {
+    list-style-type: decimal
+}
+
+.user-html ul {
+    list-style: disc
+}
+
+.user-html table {
+    margin-bottom: 20px;
+    max-width: 100%;
+    overflow: auto
+}
+
+.user-html img {
+    max-width: 100%
+}
+
+.user-html blockquote {
+    border-left: 1px solid #454545;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding-left: 20px
+}
+
+.user-html pre {
+    margin-bottom: 20px
+}
+
+.user-html h2, .user-html h3, .user-html h4, .user-html h5, .user-html h6 {
+    margin: 30px 0 20px;
+    padding: 0
+}
+
+.user-html h2:first-child, .user-html h3:first-child, .user-html h4:first-child, .user-html h5:first-child, .user-html h6:first-child {
+    margin-top: 0
+}
+
+.user-html h1 {
+    display: none
+}
+
+.user-html h2 {
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px
+}
+
+.user-html h3 {
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 18px;
+    line-height: 27px;
+    color: #545454;
+    padding-bottom: 10px
+}
+
+.user-html h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.user-html a {
+    color: #0084B4
+}
+
+.user-html a:hover {
+    color: #00719b
+}
+
+.user-html ol, .user-html ul {
+    padding-left: 35px
+}

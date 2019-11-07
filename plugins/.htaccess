@@ -1,0 +1,7 @@
+RewriteEngine On
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule . index.php [L,QSA]

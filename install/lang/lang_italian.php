@@ -1,0 +1,32 @@
+<?php
+$lang = array();
+$lang['MYSQLFILL'] = 'Inserisci i dettagli del database MySQL qui in basso';
+$lang['MYSQLHOST'] = 'MySQL Host';
+$lang['HOSTHELP'] = 'L\'indirizzo host del tuo database MySQL, di solito � localhost';
+$lang['MYSQLUSER'] = 'MySQL Username';
+$lang['USERHELP'] = 'Lo username usato per accedere il tuo database MySQL';
+$lang['MYSQLPASS'] = 'MySQL Password';
+$lang['PASSHELP'] = 'La password usata per accedere il tuo database MySQL';
+$lang['MYSQLNAME'] = 'Nome del MySQL Database';
+$lang['NAMEHELP'] = 'Il nome del tuo database, devi averlo prima creato';
+$lang['MYSQLPRE'] = 'MySQL Table Prefix';
+$lang['PREHELP'] = 'Il testo che viene prima dei table names, not necessario';
+$lang['NEXT'] = 'Next &gt;&gt;';
+$lang['ERROR1044'] = 'This utente non ha accesso al database specifico';
+$lang['ERROR1046'] = 'specifica un nome per il database';
+$lang['ERROR1049'] = 'Database non esiste, la preghiamo di crearlo';
+$lang['ERROR1045'] = 'MySQL Username o Password non corretti';
+$lang['ERROR2005'] = 'connessione all\'host non possibile';
+$lang['ERRORIMAGES'] = 'non � possibile scrivere nella cartella images.<br><br>Assicurati di aver settato il chmod/ a 0777';
+$lang['ERRORCONFIG'] = 'non � possibile scrivere nella cartella includes/config.php file.<br><br>Assicurati di aver settato il chmod/ a 0777';
+$lang['CLICKHERE'] = 'Clicca qui';
+$lang['CORRECTED'] = 'una volta correto questo';
+$lang['ADMUSER'] = 'Admin Username';
+$lang['ADMUSERHELP'] = 'Lo username che sar� utilizzato per gestire il sito';
+$lang['ADMPASS'] = 'Admin Password';
+$lang['ADMPASSHELP'] = 'La password che sar� utilizzata per gestire il sito';
+$lang['ADMFILL'] = 'Inserisci lo username e la password che ti piacerebbe utilizzare per accedere al pannello di controllo dell\'amministratore';
+$lang['THANKYOU'] = 'Grazie per aver installato Wchat, la preghiamo di utilizzare i link sottostanti';
+$lang['MYSQLDEFCOUNTRY'] = 'Default Country';
+$lang['MYSQLSELCOUNTRY'] = 'Select Country';
+?>

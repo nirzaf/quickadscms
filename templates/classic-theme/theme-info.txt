@@ -1,0 +1,8 @@
+/*
+Theme Name: Classic Theme
+Theme URI: https://bylancer.com/products/demo/classified/
+Author: Bylancer
+Version: 1.2
+Price: Free
+Description: A Beautiful, Professional and Ultimate
+*/

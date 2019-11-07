@@ -1,0 +1,939 @@
+@media (min-width: 1600px) {
+    #main {
+        background-size: cover
+    }
+}
+
+@media (min-width: 1400px) {
+    .banner-form button.form-control {
+        height: 49px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1600px) {
+    .panel-user-details .quick-item .ad-listing .image {
+        width: 254px
+    }
+
+    .banner-form input#keywords {
+        padding: 0 !important
+    }
+
+    .lang-dropdown {
+        display: block
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-form .category-dropdown, .banner-form .form-control {
+        height: 45px
+    }
+
+    .banner-form button.form-control {
+        height: 48px
+    }
+
+    #header a.btn {
+        top: 60px;
+        right: 20px;
+        z-index: 10
+    }
+
+    .home-one .category-list .category-item, .home-two .category-list .category-item {
+        width: 25%
+    }
+
+    .category-list .category-item, .single-service {
+        width: 33%
+    }
+
+    .banner-form-full.banner-form input, .home-three .banner-form-full.banner-form input, .home-two .banner-form-full.banner-form input {
+        min-width: 334px
+    }
+
+    .ad-meta {
+        left: inherit;
+        right: 0;
+        width: 100%
+    }
+
+    .item-info, .quick-item {
+        min-height: 160px
+    }
+
+    .ad-profile .user {
+        width: 40%
+    }
+
+    .congratulations {
+        padding: 80px 80px 90px
+    }
+
+    #product-carousel .carousel-indicators li, #product-carousel .carousel-indicators li.active {
+        height: 100px;
+        width: 83px
+    }
+
+    .home-one .featured, .home-one .quick-item {
+        overflow: hidden
+    }
+
+    .home-one .ad-meta {
+        width: 135%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .quick-item .ad-listing .image {
+        width: 200px
+    }
+
+    .item-info, .quick-item {
+        min-height: 152px
+    }
+
+    .quick-item .ad-listing {
+        padding-left: 200px
+    }
+
+    .banner-form input {
+        min-width: 355px
+    }
+
+    .banner h1.title, .banner-section h1.title {
+        font-size: 45px;
+        line-height: 50px
+    }
+
+    .banner-form .category-dropdown, .banner-form .form-control {
+        height: 44px
+    }
+
+    .banner-form button.form-control {
+        height: 47px
+    }
+
+    .category-list .category-item {
+        width: 33%
+    }
+
+    .ad-info .item-title, .ad-meta .user-option a {
+        font-size: 16px
+    }
+
+    .home-one .category-list .category-item, .home-two .category-list .category-item {
+        width: 25%
+    }
+
+    .banner-form-full.banner-form .category-dropdown, .banner-form-full.banner-form .form-control {
+        width: 49%;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        margin-left: 0
+    }
+
+    .banner-form-full.banner-form .category-dropdown.navbar-dropdown, .banner-form-full.banner-form input[type=text] {
+        margin-left: 0;
+        min-width: 80%;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 0;
+        border-radius: 4px
+    }
+
+    .banner-form-full.banner-form button.form-control {
+        max-width: 140px;
+        border-right: 0
+    }
+
+    #view-btn h2 {
+        font-size: 50px
+    }
+
+    #services-ad .services {
+        padding: 25px
+    }
+
+    .single-service {
+        width: 32%
+    }
+
+    .post-option {
+        margin-bottom: 25px;
+        padding-bottom: 0
+    }
+
+    .quickad-section {
+        margin: 20px 0
+    }
+
+    .ad-profile .user {
+        width: 40%
+    }
+
+    .ad-meta, .home-one .ad-meta {
+        width: 100%
+    }
+
+    .ad-profile .favorites, .ad-profile .my-quickad {
+        padding: 30px
+    }
+
+    .ad-profile .user-menu li {
+        padding: 15px
+    }
+
+    .ad-meta {
+        left: inherit;
+        right: 0
+    }
+
+    .home-one .featured, .home-one .quick-item {
+        overflow: hidden
+    }
+
+    .congratulations {
+        padding: 50px 50px 65px
+    }
+
+    .congratulations h4 {
+        font-size: 20px
+    }
+
+    #product-carousel {
+        margin-bottom: 150px
+    }
+
+    #product-carousel .carousel-indicators li, #product-carousel .carousel-indicators li.active {
+        margin-left: 28px
+    }
+
+    #home-section h2 {
+        font-size: 45px
+    }
+
+    #home-section .btn {
+        margin-right: 0
+    }
+
+    .home-banner h1 {
+        font-size: 50px
+    }
+
+    .category-menu {
+        width: 25%;
+        margin-top: 0
+    }
+
+    .page .category-section .section-title {
+        margin-bottom: 25px
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .nav-right {
+        display: block;
+        width: 100%;
+        clear: both;
+        padding-bottom: 20px
+    }
+
+    #header a.btn {
+        position: absolute;
+        top: 12px;
+        right: 20px
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    .navbar-dropdown a, h5 {
+        font-size: 14px
+    }
+
+    .quick-item .ad-listing .image {
+        width: 152px
+    }
+
+    .item-info, .quick-item {
+        min-height: 152px
+    }
+
+    .quick-item .ad-listing {
+        padding-left: 152px
+    }
+
+    #header a.btn {
+        position: absolute;
+        top: 12px;
+        right: 65px;
+        padding: 4px 15px 6px
+    }
+
+    .nav li a, .navbar-default .navbar-nav > li > a {
+        padding: 15px 5px;
+        font-size: 10px
+    }
+
+    .category-change > li:hover > ul, .category-change > li > a:after {
+        visibility: hidden !important
+    }
+
+    .banner h1.title, .banner-section h1.title, .banner-section h3 {
+        font-size: 18px
+    }
+
+    .banner-form .category-dropdown, .banner-form .form-control {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        border-radius: 4px;
+        margin-left: 0;
+        border-bottom: 1px solid #e0e0e0;
+        border-right: 0
+    }
+
+    .banner-form button.form-control {
+        margin-bottom: 0;
+        position: inherit;
+        right: 0;
+        top: 0
+    }
+
+    .category-list .category-item, .home-one .category-list .category-item, .home-two .category-list .category-item {
+        width: 47%
+    }
+
+    .home-one .category-list .category-item, .home-two .category-list .category-item {
+        margin-bottom: 10px
+    }
+
+    .quickad-section {
+        margin: 0 0 25px
+    }
+
+    .quick-item .ad-info {
+        min-height: 150px
+    }
+
+    .item-image-box, .quick-item {
+        max-height: inherit;
+        width: 100%
+    }
+
+    .ad-info .item-title {
+        font-size: 16px
+    }
+
+    .ad-info .breadcrumb, .ad-info .item-price {
+        font-size: 12px
+    }
+
+    .ad-info .view-btn {
+        padding: 5px 12px
+    }
+
+    .recommended-ads.allAd .ad-info .contact-options {
+        margin: -10px;
+        padding-top: 0
+    }
+
+    .banner-form button.form-control, .home-two .banner-form input[type=text], .home-two .category-dropdown {
+        margin-left: 0;
+        border-radius: 4px
+    }
+
+    .banner-form-full.banner-form input, .home-two .banner-form-full.banner-form input {
+        min-width: 100%
+    }
+
+    .pagination > li > a, .pagination > li > span {
+        padding: 3px 8px
+    }
+
+    #view-btn h1 {
+        margin: 0
+    }
+
+    #view-btn h2 {
+        font-size: 40px;
+        margin: 5px 0 20px
+    }
+
+    .select-category span.select, .user-images {
+        margin-right: 20px
+    }
+
+    .ad-btn {
+        margin-bottom: 30px
+    }
+
+    #view-btn img {
+        display: none
+    }
+
+    .single-service {
+        width: 49%;
+        margin-bottom: 0;
+        padding: 10px
+    }
+
+    .breadcrumb-section h2.title {
+        font-size: 24px;
+        line-height: 26px
+    }
+
+    .post-option li a {
+        font-size: 14px
+    }
+
+    .post-option {
+        margin-bottom: 20px;
+        padding-bottom: 0
+    }
+
+    .post-option.next-stap {
+        padding: 10px 25px;
+        margin-bottom: 35px
+    }
+
+    .ad-profile .user h2, .next-stap h2 {
+        font-size: 24px
+    }
+
+    .user-images {
+        margin-top: 20px;
+        width: 20%
+    }
+
+    .ad-profile .user {
+        width: 75%
+    }
+
+    .favorites-user {
+        float: right;
+        padding-bottom: 20px
+    }
+
+    .ad-profile .favorites, .ad-profile .my-quickad {
+        padding: 0 20px;
+        border-left: 0
+    }
+
+    .ad-profile .favorites-user a {
+        font-size: 30px
+    }
+
+    .ad-profile .favorites-user small {
+        font-size: 13px
+    }
+
+    .ad-profile .user h5, .ad-profile .user-menu li a, .panel-user-details label {
+        font-size: 14px
+    }
+
+    .ad-profile .user-menu li {
+        border: 1px solid #f5f5f5;
+        padding: 12px 19px
+    }
+
+    .user-profile {
+        margin-bottom: 15px
+    }
+
+    .panel-user-details .section {
+        padding: 10px 20px
+    }
+
+    .panel-user-details input, .panel-user-details select {
+        font-size: 14px;
+        height: 35px
+    }
+
+    .ad-meta .meta-content {
+        padding: 5px
+    }
+
+    .ad-meta .meta-content .visitors {
+        display: block
+    }
+
+    #something-sell h2.title {
+        font-size: 28px;
+        line-height: 32px
+    }
+
+    .congratulations {
+        padding: 60px 25px 70px
+    }
+
+    .recommended-ads {
+        padding: 20px 30px 15px
+    }
+
+    .recommended-ads h4 {
+        display: inline
+    }
+
+    .pagination > li > a {
+        font-size: 12px
+    }
+
+    .user-account {
+        padding: 30px 30px 40px
+    }
+
+    .user-account h2 {
+        margin-bottom: 35px
+    }
+
+    .user-page .btn-primary {
+        padding: 10px 30px;
+        font-size: 16px
+    }
+
+    .selected-product .select-category li {
+        margin-bottom: 5px;
+        margin-right: 0
+    }
+
+    .postdetails li a {
+        font-size: 14px
+    }
+
+    .selected-product .select-category li.active {
+        padding-left: 70px
+    }
+
+    .adpost-details .form-group {
+        margin-bottom: 20px
+    }
+
+    .adpost-details label.label-title {
+        padding-top: 0
+    }
+
+    .add-image label.upload-image:before {
+        font-size: 26px;
+        margin-left: -11px
+    }
+
+    .select-price input[type=text] {
+        max-width: 190px
+    }
+
+    .checkbox label {
+        margin-right: 20px
+    }
+
+    .adpost-details label {
+        font-size: 14px
+    }
+
+    .btn.btn-primary {
+        padding: 8px 30px 10px;
+        font-size: 16px
+    }
+
+    section {
+        padding: 30px 0
+    }
+
+    #product-carousel {
+        margin-bottom: 115px
+    }
+
+    #product-carousel .carousel-indicators li, #product-carousel .carousel-indicators li.active {
+        height: 70px;
+        width: 68px;
+        margin-left: 8px
+    }
+
+    #product-carousel .carousel-control {
+        font-size: 28px;
+        line-height: 28px;
+        margin-top: -14px
+    }
+
+    #product-carousel .carousel-indicators {
+        bottom: -105px
+    }
+
+    .slider-text h2 {
+        font-size: 24px
+    }
+
+    #main .slider-text h3.title {
+        font-size: 28px;
+        margin: 5px 0 8px
+    }
+
+    .more-info li a {
+        font-size: 14px
+    }
+
+    .pagination {
+        margin-top: 0;
+        margin-bottom: 25px
+    }
+
+    .category-menu {
+        width: 50%;
+        margin-top: 0
+    }
+
+    .page .section-title {
+        margin-bottom: 20px
+    }
+
+    .category-section .section-title h4, .category-section .section-title h5 {
+        float: none
+    }
+
+    .contac-section h1 {
+        font-size: 36px;
+        margin-bottom: 25px
+    }
+
+    .contac-section {
+        padding: 20px 0
+    }
+
+    .personal-info .address li h5 {
+        min-width: 110px
+    }
+
+    .personal-info .address li span {
+        margin-right: 10px
+    }
+
+    .banner-form .dropdown-menu {
+        min-width: auto
+    }
+
+    .white-box {
+        background-color: #fff;
+        padding: 15px
+    }
+}
+
+@media (max-width: 576px){
+    .dn-text-sm {
+        display: none !important;
+    }
+}
+
+@media (max-width: 479px) {
+    .detail-corner-icon{
+        display: none;
+    }
+    .btn.btn-primary {
+        padding: 8px 15px 10px;
+        font-size: 16px;
+    }
+    .featured-slider, .recommended-slider {
+        margin-right: 0
+    }
+
+    .tg-btn {
+        padding: 0 15px;
+        font: 500 14px/36px Quicksand, Arial, Helvetica, sans-serif
+    }
+
+    .white-box {
+        background-color: #fff;
+        padding: 15px
+    }
+
+    .description, .quick-info, .text-widget {
+        padding: 10px;
+        font-size: 10px;
+        background-color: #fff
+    }
+
+    .quick-info ul li {
+        width: 100%;
+        padding: 1px
+    }
+
+    .detail-title {
+        padding-bottom: 20px;
+        margin-bottom: 15px
+    }
+
+    .detail-title .title-left {
+        font-size: 12px;
+        line-height: 12px
+    }
+
+    .tags li {
+        padding: 0 5px;
+        font-size: 9px;
+        text-transform: none
+    }
+
+    .tags li:before {
+        content: ""
+    }
+
+    .quick-item .ad-listing .image {
+        display: none
+    }
+
+    .quick-item .ad-listing {
+        padding-left: 0
+    }
+
+    .item-info, .quick-item {
+        min-height: 100px !important
+    }
+
+    .recommended-ads {
+        padding: 15px 10px
+    }
+
+    .recommended-ads.allAd .ad-info .contact-options {
+        margin: -20px;
+        padding-top: 0
+    }
+
+    .lang-dropdown .btn {
+        font-size: 12px;
+        position: absolute;
+        top: -85px;
+        right: 0
+    }
+
+    .lang-dropdown .dropdown-menu {
+        margin: -45px 0 20px !important
+    }
+
+    #sort-dropdown {
+        font-size: 13px
+    }
+
+    .tab-manu .nav-tabs li a {
+        padding: 10px 6px
+    }
+
+    .banner-form-full.banner-form input, .home-two .banner-form-full.banner-form input {
+        min-width: 100%
+    }
+
+    .banner-form-full {
+        padding: 15px 10px
+    }
+
+    .single-service {
+        width: 100%;
+        margin-bottom: 0
+    }
+
+    .ad-profile .user, .user-images {
+        width: 100%
+    }
+
+    .ad-profile {
+        position: relative
+    }
+
+    .favorites-user {
+        position: absolute;
+        top: 25px;
+        right: 20px
+    }
+
+    .ad-profile .favorites, .ad-profile .my-quickad {
+        padding: 0 10px;
+        border-left: 0
+    }
+
+    .ad-profile .user-menu li {
+        padding: 10px 14px
+    }
+
+    .ad-meta {
+        padding-left: 16px
+    }
+
+    .ad-meta .user-option a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px
+    }
+
+    #something-sell h2.title {
+        font-size: 25px;
+        line-height: 28px
+    }
+
+    .congratulations {
+        padding: 45px 15px 50px
+    }
+
+    .congratulations h4 {
+        font-size: 18px
+    }
+
+    .congratulations i {
+        font-size: 45px;
+        margin-bottom: 10px
+    }
+
+    .recommended-ads h4 {
+        display: block;
+        font-size: 12px
+    }
+
+    .show-more-button {
+        font-size: 12px;
+        padding: 5px 10px;
+        min-width: 120px
+    }
+
+    .user-option .forgot-password {
+        float: left !important
+    }
+
+    .user-account .checkbox label {
+        margin: 0
+    }
+
+    .user-account .user-option {
+        margin-top: 20px
+    }
+
+    .ad-details-page h4 span {
+        display: none
+    }
+
+    .postdetails .edit {
+        right: 0;
+        top: -15px
+    }
+
+    .add-image label.upload-image {
+        margin-left: 10px;
+        height: 60px
+    }
+
+    .select-price input[type=text] {
+        margin: 10px 0
+    }
+
+    .slider {
+        padding: 15px
+    }
+
+    #product-carousel {
+        margin-bottom: 80px
+    }
+
+    #product-carousel .carousel-indicators li, #product-carousel .carousel-indicators li.active {
+        height: 37px;
+        width: 38px
+    }
+
+    #product-carousel .carousel-indicators {
+        bottom: -70px
+    }
+
+    #main .slider-text h3.title {
+        font-size: 24px
+    }
+
+    .category-menu {
+        width: 100%
+    }
+
+    .home-banner h1 {
+        font-size: 30px
+    }
+
+    .home-banner .contact-info {
+        padding-bottom: 20px
+    }
+
+    .user-account .nav-tabs {
+        margin-bottom: 45px
+    }
+
+    .user-account .nav-tabs > li a {
+        padding: 10px 15px
+    }
+
+    .banner-form .dropdown-menu {
+        min-width: auto
+    }
+
+    .modal-container > .inner {
+        margin-left: -200px;
+        width: 380px
+    }
+
+    .section {
+        padding: 35px 15px
+    }
+
+    .myads-page .my-quickad {
+        padding: 15px 10px
+    }
+
+    #header a.btn {
+        top: 17px;
+        right: 15px;
+        padding: 5px;
+        font-size: 11px
+    }
+
+    .navbar-brand {
+        padding: 10px 0 0 5px
+    }
+
+    .navbar-brand > img {
+        width: 105px
+    }
+
+    .modal-content {
+        padding: 0
+    }
+
+    .clr.row {
+        padding: 0 10px
+    }
+
+    .cities {
+        -webkit-column-count: 2 !important;
+        -moz-column-count: 2 !important;
+        column-count: 2 !important
+    }
+
+    .popularcity {
+        -webkit-column-count: 3 !important;
+        -moz-column-count: 3 !important;
+        column-count: 3 !important
+    }
+
+    .quick-states .column li a {
+        font-size: 11px;
+        padding: 2px 2px 2px 0
+    }
+
+    .quick-states .column li a span i {
+        top: 6px
+    }
+}

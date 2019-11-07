@@ -1,0 +1,207 @@
+1. /*
+   User Login Api Request field name
+   action = login
+   1. username or email
+   2. password
+
+   Messages
+   1. Success : Logged in success
+   2. Error : Username or Password not found
+   3. Error : This account has been banned
+   */
+
+2. /*
+   User Forgot Password Api Request field name
+   action = forgot_password
+   1. email
+
+   Messages
+   1. Success : Please check your email account for the forgot password details
+   2. Error : Email address does not exist
+   */
+
+3. /*
+   User Register Api Request field name
+   action = register
+   1. name
+   2. username
+   3. email
+   4. password
+
+   Error Messages
+   1. Enter your full name.
+   2. Name must be between 4 and 20 characters long.
+   3. Please enter an username
+   4. Username may only contain alphanumeric characters
+   5. Username must be between 4 and 15 characters long
+   6. Username not available
+   7. Please enter an email address
+   8. This is not a valid email address
+   9. An account already exists with that e-mail address
+   10. Please enter password
+   11. Password must be between 4 and 20 characters long
+   */
+
+4. /*Home page show premium ads Request field name
+    action = home_premium_ads
+    1. country_code
+    2. limit
+    */
+
+5. /*
+   Home page show latest ads Request field name
+   action = home_latest_ads
+   1. country_code
+   2. limit
+   */
+
+6. /*
+   Ad details by ad id
+   action = ad_detail
+   1. item_id
+
+   Messages
+   1. Success : ad data in json
+   2. Error : not found
+
+   https://www.bylancer.com/quickad-demo/api/v1/index.php?action=ad_detail&item_id=2722
+   */
+
+7. /*
+   Installed Countries
+   action = installed_countries
+
+   Messages
+   1. Success : Countries list json
+   2. Error : not found
+
+   https://www.bylancer.com/quickad-demo/api/v1/index.php?action=installed_countries
+   */
+
+8. /*
+   Get State By Country Code
+   action = getStateByCountryCode
+   1. country_code
+
+   Messages
+   1. Success : States list json
+   2. Error : not found
+
+   https://www.bylancer.com/quickad-demo/api/v1/index.php?action=getStateByCountryCode&country_code=in
+   */
+
+
+9. /*
+   Get Cities By State Code
+   action = getCityByStateCode
+   1. state_id
+
+   Messages
+   1. Success : cities list json
+   2. Error : not found
+
+   https://www.bylancer.com/quickad-demo/api/v1/index.php?action=getCityByStateCode&state_code=IN.24
+   */
+
+10. /*
+    Get City id By CityName
+    action = getCityidByCityName
+    1. country_code
+    2. state_name
+    2. city_name
+
+    Messages
+    1. Success : city_id
+    2. Error : not found
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=getCityidByCityName&country_code=in&state_name=Rajasthan&city_name=Udaipur
+    */
+
+11. /*
+    Get Chat Messages
+    action = get_all_msg
+    1. my_username
+    2. client
+
+    Messages
+    1. Success : messages array
+    2. Error : not found
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=get_all_msg&my_username=demo&client=Dev
+    */
+
+12. /*
+    Get Chat Conversation
+    action = chat_conversation
+    1. session_user_id
+
+    Messages
+    1. Success : messages array
+    2. Error : not found
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=chat_conversation&session_user_id=2
+    */
+
+13. /*
+    Send Message
+    action = send_message
+
+    1. from_id
+    2. to_id
+    3. message
+
+    Messages
+    1. Success : message_id
+    2. Error : not found
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=send_message&to_id=1&from_id=2&message=HelloWhatsup
+    */
+
+14. /*
+    Get Laguages List
+    action = languages_list
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=languages_list
+    */
+
+15. /*
+    Get main categories List
+    action = categories
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=categories
+    */
+
+16. /*
+    Get sub categories By main category id
+    action = sub_categories
+    1. category_id
+
+    Messages
+    1. Success : array
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=sub_categories&category_id=1
+    */
+
+17. /*
+    Make Offer
+    action = make_offer
+    1. email
+    2. name
+    3. subject
+    4. message
+
+    Messages
+    1. Success
+
+    https://www.bylancer.com/quickad-demo/api/v1/index.php?action=make_offer
+    */
+
+18. /*
+    Get language variables
+    action = language_file
+    1. file_name
+
+    Messages
+    1. Success : array
+
+    */

@@ -1,0 +1,132 @@
+
+.product-example {
+    background:#49C4A5;
+    margin-top:-15px;
+}
+
+.product-example h1 {
+    text-align:center;
+    padding:50px;
+    color:#1E7D65;
+    font-size:15pt;
+    font-family:Tahoma;
+}
+.login {  
+    background:#fff; 
+    max-width:350px;
+    margin:0 auto; 
+    padding:1px 15px 15px 15px; 
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.3); 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+}
+.login-footer {
+  margin:0 auto;
+  max-width:350px;
+  padding-top:15px;
+  font-size:11px;
+}
+.login-footer p {
+  text-align:center;
+}
+.rating-example {  
+padding:15px;
+    background:#fff; 
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.3); 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+}
+.menu { 
+  background-image: -moz-linear-gradient(bottom, #243445 0%, #395068 100%); /* gradient overlay */
+  background-image: -o-linear-gradient(bottom, #243445 0%, #395068 100%); /* gradient overlay */
+  background-image: -webkit-linear-gradient(bottom, #243445 0%, #395068 100%); /* gradient overlay */
+  background-image: linear-gradient(bottom, #243445 0%, #395068 100%); /* gradient overlay */
+}
+.menu ul {
+  list-style-type:none;
+  margin:0;
+  padding:10px;          
+}
+.menu ul li {
+  font-size:12px;
+  color:#fff;
+  display:inline;
+  padding:10px 5px 10px 10px;
+}
+.menu ul li a, 
+.menu ul li a:active,
+.menu ul li a:visited,
+.menu ul li a:hover {
+color:#fff;
+}
+.table tbody tr td {
+  line-height:40px;
+}
+.table tbody tr td img {
+  padding:10px 0px 10px 0px;
+}
+/******* Barrating  *******/
+.rating-new .br-widget {
+  height: 24px;
+}
+.rating-new .br-widget a {
+  background: url('../img/star.png');
+  width: 24px;
+  height: 24px;
+  display: block;
+  float: left;
+}
+.rating-new .br-widget a:hover,
+.rating-new .br-widget a.br-active,
+.rating-new .br-widget a.br-selected {
+  background-position: 0 24px;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio : 1.5),
+(min-resolution: 192dpi) {
+  .rating-new .br-widget a {
+    background: url('../img/star@2x.png');
+    background-size: 24px 48px;
+  }
+}
+/******* Datatables for Bootstrap  *******/
+div.dataTables_length label {
+  width: 460px;
+  float: left;
+  text-align: left;
+}
+
+div.dataTables_length select {
+  width: 75px;
+}
+
+div.dataTables_filter label {
+  float: right;
+  width: 460px;
+}
+
+div.dataTables_info {
+  padding-top: 8px;
+}
+
+div.dataTables_paginate {
+  float: right;
+  margin: 0;
+}
+
+table {
+  margin: 1em 0;
+  clear: both;
+}
+table.dataTable{font-size: 14px;}
+table.dataTable button{font-size: 12px;}
+table.dataTable th:active {
+  outline: none;
+}

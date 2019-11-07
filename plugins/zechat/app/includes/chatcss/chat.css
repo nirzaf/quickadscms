@@ -1,0 +1,1139 @@
+@import "icons.css";
+@import "../../plugins/smiley/assets/sprites/emojione.sprites.css";
+@import "../../plugins/uploader/jquery.ui.plupload/css/jquery-ui.css";
+@import "../../plugins/uploader/jquery.ui.plupload/css/jquery.ui.plupload.css";
+
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+b, strong {
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.m-t-10 {
+    margin-top: 10px !important;
+}
+.m-b-10 {
+    bottom: 10px !important;
+}
+
+p {
+    line-height: 20px;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.chatbox .panel {
+    border-radius: 3px;
+    background: #fff;
+    margin: 0;
+}
+.chatbox .panel {
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.chatboxblink {
+    border-right: 1px solid #00b0ff;
+    border-left: 1px solid #00b0ff;
+    background: transparent linear-gradient(to bottom, #00b0ff 0px, #00b0ff 100%) repeat scroll 0 0;
+
+    border-right: 1px solid var(--theme-color);
+    border-left: 1px solid var(--theme-color);
+    background: transparent linear-gradient(to bottom, var(--theme-color) 0px, var(--theme-color) 100%) repeat scroll 0 0;
+    color: #fff !important;
+}
+.chatboxblink .header-elements .status b,.chatboxblink .header-elements a {
+    color: #fff !important;
+}
+.chatbox .panel-heading {
+    border-bottom: 1px solid #efefef;
+}
+.chatbox .panel-heading {
+    border-bottom: 1px solid #dcdcdc;
+    background-color: #F5F5F5;
+}
+.chatbox .panel-heading {
+    padding: 5px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.chatbox .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.chatbox-icon {
+    right: 230px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+}
+.contact-floating {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+.contact-floating img{
+    width: 54px;
+    height: 54px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.red {
+    background-color: #F44336 !important;
+}
+.contact-floating .status.Online:after {
+    background-color: #6cd187;
+}
+.contact-floating .status.Offline:after {
+    background-color: #bdbdbd;
+}
+.contact-floating .status:after {
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    left: 43px;
+    top: 55px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+.contact-floating .unread-msg {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #F44336 !important;
+}
+
+
+.personal-chat .chat-image {
+    margin-right: 10px;
+}
+.personal-chat .header-elements {
+    padding-top: 5px;
+    line-height: 15px;
+}
+.chatbox .panel-heading small {
+    line-height: 23px;
+    font-size: 12px;
+}
+.personal-chat .header-elements .status b {
+    color: #777;
+}
+
+.personal-chat .header-elements .status:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 43px;
+    top: 32px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+.personal-chat .header-elements .status.Online:after {
+    background-color: #6cd187;
+}
+.personal-chat .header-elements .status.Offline:after {
+    background-color: #bdbdbd;
+}
+.personal-chat .header-elements .status.Away:after {
+    background-color: #faf03a;
+}
+.personal-chat .header-elements .status.dnd:after {
+    background-color: #e80957;
+}
+.personal-chat .options {
+    margin-top: -15px;
+}
+
+.chatbox .btn-group, .chatbox .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.personal-chat .panel-heading span {
+    margin-top: 3px;
+}
+.personal-chat .options .attachment {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(945deg);
+    display: inline-block;
+    font-size: 18px;
+}
+.personal-chat .options i {
+    padding: 5px;
+}
+
+li.active a, a:hover, a {
+    text-decoration: none !important;
+}
+
+.personal-chat .options i {
+    padding: 5px;
+}
+
+
+.text-primary {
+    color: #6699cc;
+}
+
+.personal-chat .panel-body {
+    padding: 0;
+}
+.panel-body:before, .panel-body:after {
+    content: " ";
+    display: table;
+}
+.panel-body:after {
+    clear: both;
+}
+.chat-conversation {
+    background-image: url(img/brick-wall.png);
+}
+.conversation-list {
+    list-style: none;
+    padding: 0 9px 0 0;
+    margin: 0;
+}
+.chatboxcontent{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 275px;
+}
+.conversation-list .odd .conversation-text {
+    float: right;
+    margin-right: 5px;
+    text-align: right;
+    width: 78%;
+}
+.conversation-list .conversation-text {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin-left: 15px;
+    width: 70%;
+}
+.conversation-list .conversers1 .ctext-wrap {
+    background: #D8F1E4;
+}
+.conversation-list .conversers2 .ctext-wrap {
+    background: #fff;
+}
+.conversation-list .ctext-wrap {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.conversation-list .ctext-wrap p {
+    margin: 0;
+    padding: 3px 0 0 0;
+    color: #333333;    line-height: 18px;
+    font-size: 12px;
+}
+
+.conversation-list .ctext-wrap i {
+    color: #777;
+    font-size: 11px;
+    font-style: normal;
+    position: relative;
+    margin-left: 5px;
+}
+
+
+.conversation-list .odd .ctext-wrap:after {
+    border-color: rgba(238, 238, 242, 0);
+    left: 99%;
+    margin-right: -1px;
+    border-top: 0 solid #D8F1E4;
+    border-left: 12px solid #D8F1E4;
+    border-bottom: 14px solid transparent;
+}
+.conversation-list .ctext-wrap:after {
+    right: 98%;
+    top: 0;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    margin-left: -1px;
+    border-top: 0 solid #fff;
+    border-right: 12px solid #fff;
+    border-bottom: 14px solid transparent;
+}
+
+
+
+
+
+
+/*chat loader*/
+
+.ctext-wrap .reply {
+    width : 98px;
+    color : #777;
+}
+.spinner {
+    padding-top : 6px;
+}
+.spinner > div {
+    width             : 5px;
+    height            : 5px;
+    background-color  : #777;
+    margin-right      : 2px;
+    border-radius     : 50%;
+    display           : inline-block;
+    -webkit-animation : sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation         : sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+    -webkit-animation-delay : -0.32s;
+    animation-delay         : -0.32s;
+}
+.spinner .bounce2 {
+    -webkit-animation-delay : -0.16s;
+    animation-delay         : -0.16s;
+}
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform : scale(0);
+        transform         : translateY(-7px);
+    }
+    40% {
+        -webkit-transform : scale(1.0);
+        transform         : translateY(0);
+    }
+}
+/*chat end*/
+
+
+.wchat-wrapper-main::-webkit-scrollbar-track {
+    background-color: #dfdfdf
+}
+/**::-webkit-input-placeholder {
+    color: #ccc;font-size: 15px
+}
+*::-moz-placeholder {
+    color: #ccc;font-size: 15px
+}*/
+.font-24 {
+    font-size: 24px !important;
+}
+button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: 0 0;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+.wchat-chat-footer {
+    -webkit-box-flex: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    z-index: 1;
+    -webkit-box-ordinal-group: 4;
+    order: 3;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.block-wchat {
+    background-color: #f9f9f9;
+}
+.block-wchat .input-container {
+    background-color: #fff;
+}
+.block-wchat {
+    display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;padding: 10px 19px;max-width: 100%;box-sizing: border-box;position: relative;z-index: 2;
+}
+.block-wchat .btn-emoji {
+    margin-right: 20px;margin-bottom: 7px;
+}
+.block-wchat .send-container, .block-wchat .ptt-container, .block-wchat .btn-emoji {
+    -webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;
+}
+.block-wchat .input-container {
+    border-radius: 5px;background-clip: padding-box;width: inherit;-webkit-box-flex: 1;-ms-flex: 1 1 auto;flex: 1 1 auto;min-width: 0;border-color: #fff;border-width: 1px;border-style: solid;box-sizing: border-box;padding-right: 16px;
+}
+.input, .block-wchat .input-container, .input-line {
+    font-weight: 400;
+}
+.input-container {
+    -webkit-transition: height .18s ease-in-out;transition: height .18s ease-in-out;
+}
+.input-emoji {
+    position: relative;
+}
+.block-wchat .input-placeholder {
+    top: 0;margin-left: 2px;
+}
+.block-wchat .input-container .input, .block-wchat .input-container .input-container {
+    word-wrap: break-word;white-space: pre-wrap;padding: 0 2px 0 0;min-height: 20px;max-height: 100px;overflow-y: auto;overflow-x: hidden;background-color: rgba(255, 255, 255, 0);border-left: .1px solid transparent;position: relative;z-index: 1;
+}
+.input, .block-wchat .input-container {
+    -webkit-user-select: text;-moz-user-select: text;-ms-user-select: text;user-select: text;line-height: 20px;font-size: 15px;min-height: 20px;border: none;padding: 8px 8px;width: 100%;outline: none;
+}
+.input-placeholder {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    color: #999;
+    pointer-events: none;
+    -webkit-transition: opacity .08s linear;
+    transition: opacity .08s linear;
+    font-size: 15px;
+    line-height: 20px;
+    z-index: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.block-wchat .send-container, .block-wchat .ptt-container, .block-wchat .btn-emoji {
+    -webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;
+}
+.block-wchat{
+    padding: 8px 8px !important;
+}
+.block-wchat .btn-emoji {
+    margin-right: 10px !important;
+}
+.block-wchat .icon-send {
+    margin-left: 10px !important;
+}
+.block-wchat .icon-send {
+    opacity: .9;margin-left: 20px;margin-bottom: 8px;
+}
+.icon-send {
+    background-position: -3451px -3512px;
+}
+
+
+.chatbox {
+    position: fixed;
+    width: 260px;
+    display: none;
+    z-index: 9999999999;
+}
+
+
+
+._5w-5 {
+    text-align: center;
+}
+._5w-5 {
+    background-image: url(chaticon.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -313px;
+    height: 2px;
+    margin: 16px 0px 15px;
+    text-align: center;
+}
+._5w-6 {
+    background-color: #E9EAED;
+    color: #9197A3;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px 5px;
+    position: relative;
+    top: -8px;
+}
+abbr {
+    border-bottom: medium none;
+    text-decoration: none;
+}
+
+
+/* Tooltip text */
+
+.tooltiptext {
+    min-width: 120px;
+    padding: 3px 0px 5px;
+    margin: 0px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 9999;
+}
+.tooltiptext i {
+    color: #777;
+    display: block;
+    font-size: 11px;
+    font-style: normal;
+    padding-right: 5px;
+    text-align: right;
+}
+.tooltiptext img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+
+.wchat-box-items-positioning-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wchat-box-items-overlay-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.smiley-panel {
+    height: 200px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    overflow: hidden;
+}
+.customtab2 {
+    border-bottom: 1px solid #f7fafc;
+    border-top: 1px solid #f7fafc;
+    padding: 10px 0;
+    background: #f9f9f9;
+}
+
+.menu-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.menu-tabs-emoji {
+    position: relative;height: 50px;background-color: #fff;-webkit-box-flex: 0;-ms-flex: none;flex: none
+}
+.menu-tabs-emoji .menu-item {
+    height: 50px
+}
+.menu-tabs-emoji .icon {
+    vertical-align: middle
+}
+.menu-tabs-marker {
+    position: absolute;bottom: 0;left: 0;-webkit-transition: -webkit-transform .3s cubic-bezier(.1, .82, .25, 1);transition: transform .3s cubic-bezier(.1, .82, .25, 1);height: 4px;background-color: #009688
+}
+.menu-tabs>.menu-item, .menu-pills>.menu-item {
+    -webkit-box-flex: 1;  -ms-flex: 1;  flex: 1;  text-align: center;
+}
+.menu-item {
+    cursor: pointer;
+}
+
+.menu-tabs>.menu-item, .menu-pills>.menu-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.customtab2 li.active a, .customtab2 li.active a:hover, .customtab2 li.active a:focus {
+    background: #333333;
+    border: 1px solid #333333;
+    color: #ffffff;
+}
+.customtab2 li a {
+    color: #333333;
+}
+.customtab2 li:hover a {
+    color: #333333;
+    border-bottom:1px solid #333;
+}
+
+.smiley-panel-body {
+    height: 173px;
+    position: absolute;
+    opacity: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 8px 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+.smiley-panel-body>* {
+    direction: ltr;
+    margin: 0 8px;
+}
+.smiley-panel .e1 {
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.emoji, .e1 {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    border: 0;
+}
+.emojione {
+    width: 20px;
+    height: 20px;
+    /* background-size: 860px 840px; */
+}
+.e1 {
+    width: 32px;
+    height: 32px;
+    background-size: 1502px 1467px;
+}
+
+.emojione, .e1 {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    border: 0;
+}
+/*Contact List*/
+#drupalchat-wrapper {
+    border-bottom-color: #3b3b3b;
+    border-left-color: #3b3b3b;
+    border-right-color: #3b3b3b;
+    border-top-color: #3b3b3b;
+}
+#drupalchat-wrapper {
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-left-style: none;
+    border-left-width: 0;
+    border-right-style: none;
+    border-right-width: 0;
+    border-top-style: none;
+    border-top-width: 0;
+    font-size: 13px;
+    text-align: left;
+    font-family: Arial,sans-serif;
+    display: block;
+}
+#drupalchat-wrapper {
+    bottom: -58px;
+    height: 29px;
+    margin: 0 203px;
+    position: fixed;
+    right: 0;
+    z-index: 99999999;
+}
+#drupalchat {
+    border-bottom: 0;
+    float: left;
+    font-family: Arial,sans-serif;
+}
+#drupalchat .item-list {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+#drupalchat ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#drupalchat #chatpanel.last {
+    clear: none !important;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+#drupalchat #chatpanel.first {
+    clear: none !important;
+}
+#drupalchat ul li {
+    background: #1d4a88;
+}
+#drupalchat ul li {
+    background: #e5e5e5;
+}
+#drupalchat ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    margin-right: 10px;
+}
+#drupalchat ul li a.localhost.subpanel_toggle.active {
+    color: #222222;
+    font-weight: normal;
+}
+#drupalchat ul li a.localhost.subpanel_toggle {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#drupalchat ul li a.localhost {
+    border-top: 1px solid rgba(255,255,255,0);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+#drupalchat ul li a.active {
+    background: #fff;
+    border-radius: 0;
+    border-top: 1px solid #eee;
+}
+#drupalchat ul li a.localhost {
+    width: 188px;
+}
+#drupalchat ul li a.active {
+    height: 18px;
+    margin-top: -2px;
+    position: relative;
+    z-index: 200;
+}
+#drupalchat ul li.last a {
+    border-right: 0;
+}
+#drupalchat #chatpanel .subpanel {
+    width: 200px;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+#drupalchat .subpanel {
+    border-bottom: 1px solid #e1e1e1;
+}
+#drupalchat .subpanel {
+    bottom: 29px;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 150px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+#drupalchat #chatpanel .subpanel {
+    width: 200px;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+#drupalchat .subpanel {
+    border-bottom: 1px solid #e1e1e1;
+}
+#drupalchat .subpanel {
+    bottom: 29px;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 150px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+#drupalchat #chatpanel .subpanel_title {
+    padding-top: 4px;
+    line-height: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#drupalchat .subpanel_title {
+    background: #1d4a88;
+    color: #FFFFFF;
+}
+#drupalchat .subpanel_title {
+    background-color: #1c90f3;
+    background-color: var(--theme-color);
+    color: #fff;
+}
+#drupalchat .subpanel_title {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 3px 4px 3px 8px;
+    font-size: 17px;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+#drupalchat .subpanel_title span.options {
+    width: 12px;
+    height: 12px;
+    display: none;
+}
+#drupalchat .subpanel_title span {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    font-size: 17px;
+    font-weight: bold;
+    float: right;
+    line-height: 1.7em;
+    padding: 2px 0 1px 1px;
+}
+#drupalchat .subpanel_title .minusicon:hover {
+    color: #060;
+}
+#drupalchat .subpanel_title span.min {
+    padding: 0;
+}
+
+#drupalchat .subpanel .chat_options {
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+#drupalchat .subpanel .chat_options {
+    height: 37px;
+}
+#drupalchat .subpanel .chat_options {
+    overflow: hidden;
+    position: relative;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile {
+    display: inline-block;
+    height: 37px;
+    width: 78%;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile .drupalchat-self-profile-div {
+    display: inline-block;
+    width: 32px;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile .drupalchat-self-profile-div .drupalchat-self-profile-img {
+    margin: 3px 0 4px 4px;
+    float: left;
+    height: 28px;
+    width: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+#drupalchat .localhost-avatar-sprite-28.R_3 {
+    background-position: -56px -476px;
+    width: 28px;
+    height: 28px;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile .drupalchat-self-profile-namdiv {
+    display: inline-block;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    padding-left: 3px;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile .drupalchat-self-profile-namdiv .drupalchat-profile-un {
+    display: inline;
+    border: 0;
+    padding: 0;
+    margin-left: 7px;
+    margin-top: 11px;
+    position: absolute;
+    float: left;
+    width: 118px;
+    font-size: 13px;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+}
+#drupalchat .subpanel .chat_options a {
+    border-left: 1px solid #999;
+    color: #333;
+}
+#drupalchat .subpanel .chat_options a {
+    float: right;
+    padding: 3px 8px 3px 3px;
+    width: 18px;
+    height: 18px;
+}
+#drupalchat .subpanel .chat_options .drupalchat-usermenu {
+    height: 37px;
+    display: inline-block;
+    cursor: pointer;
+    width: 22%;
+}
+#drupalchat .subpanel .chat_options .drupalchat-usermenu .drupalchat-usermenu-img {
+    color: #333;
+}
+#drupalchat .subpanel .chat_options .drupalchat-usermenu .drupalchat-usermenu-img {
+    padding-top: 8px;
+    padding-left: 0;
+    float: left;
+    font-size: 22px;
+}
+#drupalchat .subpanel .chat_options .drupalchat-usermenu a {
+    display: block;
+    position: absolute;
+    height: 37px;
+    width: 10%;
+    border: 0;
+    padding: 0;
+    margin-left: 26px;
+}
+#drupalchat .subpanel .chat_options span.status-1 {
+    background: url(../img/online.png) no-repeat left;
+}
+#drupalchat .subpanel .chat_options a {
+    border-left: 1px solid #999;
+    color: #333;
+}
+#drupalchat .subpanel .chat_options a {
+    float: right;
+    padding: 3px 8px 3px 3px;
+    width: 18px;
+    height: 18px;
+}
+#drupalchat ul li.last a {
+    border-right: 0;
+}
+#drupalchat ul li div a {
+    color: #222222;
+}
+#drupalchat ul li div a {
+    color: #222;
+}
+#drupalchat ul li div a {
+    float: none;
+    height: auto;
+    padding: 0;
+    position: static;
+    width: auto;
+}
+#drupalchat ul li a {
+    color: #222222;
+}
+#drupalchat ul li a {
+    color: #333;
+}
+#drupalchat ul li a {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding: 6px;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+#drupalchat .subpanel .drupalchat_search {
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+#drupalchat .subpanel .drupalchat_search {
+    overflow: hidden;
+    position: relative;
+}
+#drupalchat .subpanel .drupalchat_search .drupalchat_searchinput {
+    background: #f9f9f9;
+}
+#drupalchat .subpanel .drupalchat_search .drupalchat_searchinput {
+    height: 30px;
+    outline: 0;
+    vertical-align: middle;
+    margin-left: 7px;
+    border: 0;
+    font-size: 12px;
+}
+#drupalchat .subpanel .drupalchat_search .searchbutton {
+    background: url(img/searchb.png) no-repeat center;
+    width: 14px;
+    height: 14px;
+    float: right;
+    filter: none;
+}
+#drupalchat .subpanel .chat_options .drupalchat-self-profile .drupalchat-self-profile-div .drupalchat-self-profile-img {
+    margin: 3px 0 4px 4px;
+    float: left;
+    height: 28px;
+    width: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+
+
+#drupalchat .localhost-avatar-sprite-28.A_1{background-position:0 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_1{background-position:0 -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_1{background-position:0 -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_1{background-position:0 -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_1{background-position:0 -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_1{background-position:0 -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_1{background-position:0 -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_1{background-position:0 -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_1{background-position:0 -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_1{background-position:0 -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_1{background-position:0 -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_1{background-position:0 -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_1{background-position:0 -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_1{background-position:0 -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_1{background-position:0 -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_1{background-position:0 -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_1{background-position:0 -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_1{background-position:0 -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_1{background-position:0 -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_1{background-position:0 -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_1{background-position:0 -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_1{background-position:0 -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_1{background-position:0 -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_1{background-position:0 -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_1{background-position:0 -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_1{background-position:0 -700px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.A_2{background-position:-28px 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_2{background-position:-28px -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_2{background-position:-28px -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_2{background-position:-28px -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_2{background-position:-28px -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_2{background-position:-28px -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_2{background-position:-28px -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_2{background-position:-28px -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_2{background-position:-28px -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_2{background-position:-28px -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_2{background-position:-28px -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_2{background-position:-28px -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_2{background-position:-28px -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_2{background-position:-28px -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_2{background-position:-28px -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_2{background-position:-28px -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_2{background-position:-28px -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_2{background-position:-28px -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_2{background-position:-28px -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_2{background-position:-28px -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_2{background-position:-28px -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_2{background-position:-28px -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_2{background-position:-28px -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_2{background-position:-28px -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_2{background-position:-28px -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_2{background-position:-28px -700px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.A_3{background-position:-56px 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_3{background-position:-56px -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_3{background-position:-56px -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_3{background-position:-56px -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_3{background-position:-56px -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_3{background-position:-56px -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_3{background-position:-56px -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_3{background-position:-56px -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_3{background-position:-56px -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_3{background-position:-56px -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_3{background-position:-56px -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_3{background-position:-56px -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_3{background-position:-56px -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_3{background-position:-56px -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_3{background-position:-56px -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_3{background-position:-56px -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_3{background-position:-56px -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_3{background-position:-56px -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_3{background-position:-56px -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_3{background-position:-56px -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_3{background-position:-56px -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_3{background-position:-56px -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_3{background-position:-56px -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_3{background-position:-56px -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_3{background-position:-56px -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_3{background-position:-56px -700px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.A_4{background-position:-84px 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_4{background-position:-84px -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_4{background-position:-84px -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_4{background-position:-84px -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_4{background-position:-84px -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_4{background-position:-84px -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_4{background-position:-84px -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_4{background-position:-84px -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_4{background-position:-84px -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_4{background-position:-84px -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_4{background-position:-84px -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_4{background-position:-84px -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_4{background-position:-84px -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_4{background-position:-84px -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_4{background-position:-84px -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_4{background-position:-84px -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_4{background-position:-84px -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_4{background-position:-84px -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_4{background-position:-84px -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_4{background-position:-84px -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_4{background-position:-84px -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_4{background-position:-84px -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_4{background-position:-84px -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_4{background-position:-84px -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_4{background-position:-84px -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_4{background-position:-84px -700px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.A_5{background-position:-112px 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_5{background-position:-112px -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_5{background-position:-112px -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_5{background-position:-112px -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_5{background-position:-112px -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_5{background-position:-112px -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_5{background-position:-112px -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_5{background-position:-112px -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_5{background-position:-112px -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_5{background-position:-112px -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_5{background-position:-112px -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_5{background-position:-112px -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_5{background-position:-112px -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_5{background-position:-112px -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_5{background-position:-112px -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_5{background-position:-112px -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_5{background-position:-112px -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_5{background-position:-112px -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_5{background-position:-112px -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_5{background-position:-112px -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_5{background-position:-112px -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_5{background-position:-112px -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_5{background-position:-112px -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_5{background-position:-112px -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_5{background-position:-112px -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_5{background-position:-112px -700px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.A_6{background-position:-140px 0;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.B_6{background-position:-140px -28px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.C_6{background-position:-140px -56px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.D_6{background-position:-140px -84px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.E_6{background-position:-140px -112px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.F_6{background-position:-140px -140px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.G_6{background-position:-140px -168px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.H_6{background-position:-140px -196px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.I_6{background-position:-140px -224px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.J_6{background-position:-140px -252px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.K_6{background-position:-140px -280px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.L_6{background-position:-140px -308px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.M_6{background-position:-140px -336px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.N_6{background-position:-140px -364px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.O_6{background-position:-140px -392px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.P_6{background-position:-140px -420px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Q_6{background-position:-140px -448px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.R_6{background-position:-140px -476px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.S_6{background-position:-140px -504px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.T_6{background-position:-140px -532px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.U_6{background-position:-140px -560px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.V_6{background-position:-140px -588px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.W_6{background-position:-140px -616px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.X_6{background-position:-140px -644px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Y_6{background-position:-140px -672px;width:28px;height:28px}#drupalchat .localhost-avatar-sprite-28.Z_6{background-position:-140px -700px;width:28px;height:28px}
+
+#drupalchat .localhost-avatar-sprite-28.A_1, #drupalchat .localhost-avatar-sprite-28.B_1, #drupalchat .localhost-avatar-sprite-28.C_1, #drupalchat .localhost-avatar-sprite-28.D_1, #drupalchat .localhost-avatar-sprite-28.E_1, #drupalchat .localhost-avatar-sprite-28.F_1, #drupalchat .localhost-avatar-sprite-28.G_1, #drupalchat .localhost-avatar-sprite-28.H_1, #drupalchat .localhost-avatar-sprite-28.I_1, #drupalchat .localhost-avatar-sprite-28.J_1, #drupalchat .localhost-avatar-sprite-28.K_1, #drupalchat .localhost-avatar-sprite-28.L_1, #drupalchat .localhost-avatar-sprite-28.M_1, #drupalchat .localhost-avatar-sprite-28.N_1, #drupalchat .localhost-avatar-sprite-28.O_1, #drupalchat .localhost-avatar-sprite-28.P_1, #drupalchat .localhost-avatar-sprite-28.Q_1, #drupalchat .localhost-avatar-sprite-28.R_1, #drupalchat .localhost-avatar-sprite-28.S_1, #drupalchat .localhost-avatar-sprite-28.T_1, #drupalchat .localhost-avatar-sprite-28.U_1, #drupalchat .localhost-avatar-sprite-28.V_1, #drupalchat .localhost-avatar-sprite-28.W_1, #drupalchat .localhost-avatar-sprite-28.X_1, #drupalchat .localhost-avatar-sprite-28.Y_1, #drupalchat .localhost-avatar-sprite-28.Z_1, #drupalchat .localhost-avatar-sprite-28.A_2, #drupalchat .localhost-avatar-sprite-28.B_2, #drupalchat .localhost-avatar-sprite-28.C_2, #drupalchat .localhost-avatar-sprite-28.D_2, #drupalchat .localhost-avatar-sprite-28.E_2, #drupalchat .localhost-avatar-sprite-28.F_2, #drupalchat .localhost-avatar-sprite-28.G_2, #drupalchat .localhost-avatar-sprite-28.H_2, #drupalchat .localhost-avatar-sprite-28.I_2, #drupalchat .localhost-avatar-sprite-28.J_2, #drupalchat .localhost-avatar-sprite-28.K_2, #drupalchat .localhost-avatar-sprite-28.L_2, #drupalchat .localhost-avatar-sprite-28.M_2, #drupalchat .localhost-avatar-sprite-28.N_2, #drupalchat .localhost-avatar-sprite-28.O_2, #drupalchat .localhost-avatar-sprite-28.P_2, #drupalchat .localhost-avatar-sprite-28.Q_2, #drupalchat .localhost-avatar-sprite-28.R_2, #drupalchat .localhost-avatar-sprite-28.S_2, #drupalchat .localhost-avatar-sprite-28.T_2, #drupalchat .localhost-avatar-sprite-28.U_2, #drupalchat .localhost-avatar-sprite-28.V_2, #drupalchat .localhost-avatar-sprite-28.W_2, #drupalchat .localhost-avatar-sprite-28.X_2, #drupalchat .localhost-avatar-sprite-28.Y_2, #drupalchat .localhost-avatar-sprite-28.Z_2, #drupalchat .localhost-avatar-sprite-28.A_3, #drupalchat .localhost-avatar-sprite-28.B_3, #drupalchat .localhost-avatar-sprite-28.C_3, #drupalchat .localhost-avatar-sprite-28.D_3, #drupalchat .localhost-avatar-sprite-28.E_3, #drupalchat .localhost-avatar-sprite-28.F_3, #drupalchat .localhost-avatar-sprite-28.G_3, #drupalchat .localhost-avatar-sprite-28.H_3, #drupalchat .localhost-avatar-sprite-28.I_3, #drupalchat .localhost-avatar-sprite-28.J_3, #drupalchat .localhost-avatar-sprite-28.K_3, #drupalchat .localhost-avatar-sprite-28.L_3, #drupalchat .localhost-avatar-sprite-28.M_3, #drupalchat .localhost-avatar-sprite-28.N_3, #drupalchat .localhost-avatar-sprite-28.O_3, #drupalchat .localhost-avatar-sprite-28.P_3, #drupalchat .localhost-avatar-sprite-28.Q_3, #drupalchat .localhost-avatar-sprite-28.R_3, #drupalchat .localhost-avatar-sprite-28.S_3, #drupalchat .localhost-avatar-sprite-28.T_3, #drupalchat .localhost-avatar-sprite-28.U_3, #drupalchat .localhost-avatar-sprite-28.V_3, #drupalchat .localhost-avatar-sprite-28.W_3, #drupalchat .localhost-avatar-sprite-28.X_3, #drupalchat .localhost-avatar-sprite-28.Y_3, #drupalchat .localhost-avatar-sprite-28.Z_3, #drupalchat .localhost-avatar-sprite-28.A_4, #drupalchat .localhost-avatar-sprite-28.B_4, #drupalchat .localhost-avatar-sprite-28.C_4, #drupalchat .localhost-avatar-sprite-28.D_4, #drupalchat .localhost-avatar-sprite-28.E_4, #drupalchat .localhost-avatar-sprite-28.F_4, #drupalchat .localhost-avatar-sprite-28.G_4, #drupalchat .localhost-avatar-sprite-28.H_4, #drupalchat .localhost-avatar-sprite-28.I_4, #drupalchat .localhost-avatar-sprite-28.J_4, #drupalchat .localhost-avatar-sprite-28.K_4, #drupalchat .localhost-avatar-sprite-28.L_4, #drupalchat .localhost-avatar-sprite-28.M_4, #drupalchat .localhost-avatar-sprite-28.N_4, #drupalchat .localhost-avatar-sprite-28.O_4, #drupalchat .localhost-avatar-sprite-28.P_4, #drupalchat .localhost-avatar-sprite-28.Q_4, #drupalchat .localhost-avatar-sprite-28.R_4, #drupalchat .localhost-avatar-sprite-28.S_4, #drupalchat .localhost-avatar-sprite-28.T_4, #drupalchat .localhost-avatar-sprite-28.U_4, #drupalchat .localhost-avatar-sprite-28.V_4, #drupalchat .localhost-avatar-sprite-28.W_4, #drupalchat .localhost-avatar-sprite-28.X_4, #drupalchat .localhost-avatar-sprite-28.Y_4, #drupalchat .localhost-avatar-sprite-28.Z_4, #drupalchat .localhost-avatar-sprite-28.A_5, #drupalchat .localhost-avatar-sprite-28.B_5, #drupalchat .localhost-avatar-sprite-28.C_5, #drupalchat .localhost-avatar-sprite-28.D_5, #drupalchat .localhost-avatar-sprite-28.E_5, #drupalchat .localhost-avatar-sprite-28.F_5, #drupalchat .localhost-avatar-sprite-28.G_5, #drupalchat .localhost-avatar-sprite-28.H_5, #drupalchat .localhost-avatar-sprite-28.I_5, #drupalchat .localhost-avatar-sprite-28.J_5, #drupalchat .localhost-avatar-sprite-28.K_5, #drupalchat .localhost-avatar-sprite-28.L_5, #drupalchat .localhost-avatar-sprite-28.M_5, #drupalchat .localhost-avatar-sprite-28.N_5, #drupalchat .localhost-avatar-sprite-28.O_5, #drupalchat .localhost-avatar-sprite-28.P_5, #drupalchat .localhost-avatar-sprite-28.Q_5, #drupalchat .localhost-avatar-sprite-28.R_5, #drupalchat .localhost-avatar-sprite-28.S_5, #drupalchat .localhost-avatar-sprite-28.T_5, #drupalchat .localhost-avatar-sprite-28.U_5, #drupalchat .localhost-avatar-sprite-28.V_5, #drupalchat .localhost-avatar-sprite-28.W_5, #drupalchat .localhost-avatar-sprite-28.X_5, #drupalchat .localhost-avatar-sprite-28.Y_5, #drupalchat .localhost-avatar-sprite-28.Z_5, #drupalchat .localhost-avatar-sprite-28.A_6, #drupalchat .localhost-avatar-sprite-28.B_6, #drupalchat .localhost-avatar-sprite-28.C_6, #drupalchat .localhost-avatar-sprite-28.D_6, #drupalchat .localhost-avatar-sprite-28.E_6, #drupalchat .localhost-avatar-sprite-28.F_6, #drupalchat .localhost-avatar-sprite-28.G_6, #drupalchat .localhost-avatar-sprite-28.H_6, #drupalchat .localhost-avatar-sprite-28.I_6, #drupalchat .localhost-avatar-sprite-28.J_6, #drupalchat .localhost-avatar-sprite-28.K_6, #drupalchat .localhost-avatar-sprite-28.L_6, #drupalchat .localhost-avatar-sprite-28.M_6, #drupalchat .localhost-avatar-sprite-28.N_6, #drupalchat .localhost-avatar-sprite-28.O_6, #drupalchat .localhost-avatar-sprite-28.P_6, #drupalchat .localhost-avatar-sprite-28.Q_6, #drupalchat .localhost-avatar-sprite-28.R_6, #drupalchat .localhost-avatar-sprite-28.S_6, #drupalchat .localhost-avatar-sprite-28.T_6, #drupalchat .localhost-avatar-sprite-28.U_6, #drupalchat .localhost-avatar-sprite-28.V_6, #drupalchat .localhost-avatar-sprite-28.W_6, #drupalchat .localhost-avatar-sprite-28.X_6, #drupalchat .localhost-avatar-sprite-28.Y_6, #drupalchat .localhost-avatar-sprite-28.Z_6, #drupalchat .localhost-avatar-sprite-28.User_1, #drupalchat .localhost-avatar-sprite-28.User_2, #drupalchat .localhost-avatar-sprite-28.User_3, #drupalchat .localhost-avatar-sprite-28.User_4, #drupalchat .localhost-avatar-sprite-28.User_5, #drupalchat .localhost-avatar-sprite-28.User_6, #drupalchat .localhost-avatar-sprite-28.Male_1, #drupalchat .localhost-avatar-sprite-28.Male_2, #drupalchat .localhost-avatar-sprite-28.Male_3, #drupalchat .localhost-avatar-sprite-28.Male_4, #drupalchat .localhost-avatar-sprite-28.Male_5, #drupalchat .localhost-avatar-sprite-28.Male_6, #drupalchat .localhost-avatar-sprite-28.Female_1, #drupalchat .localhost-avatar-sprite-28.Female_2, #drupalchat .localhost-avatar-sprite-28.Female_3, #drupalchat .localhost-avatar-sprite-28.Female_4, #drupalchat .localhost-avatar-sprite-28.Female_5, #drupalchat .localhost-avatar-sprite-28.Female_6, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_1, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_2, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_3, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_4, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_5, #drupalchat .localhost-avatar-sprite-28.ChatRoom1_6, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_1, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_2, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_3, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_4, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_5, #drupalchat .localhost-avatar-sprite-28.ChatRoom2_6 {
+    background-image: url("img/avatar_sprite_v2.jpg");
+    /*background-repeat: none;*/
+    background-size: 168px 868px;
+}
+
+#drupalchat .chatboxcontent{
+    width: 100%;padding: 0;
+}
+
+#drupalchat .subpanel .contact-list {
+    width: 198px;
+    height: 250px;
+    overflow-y: scroll;
+    background-color: #eceff1;
+}
+
+#drupalchat img {
+    float: left;
+    height: 28px;
+    width: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+#drupalchat .subpanel .statuso {
+    display: inline;
+    width: 0px;
+    height: 21px;
+    float: right;
+    padding-top: 10px;
+}
+#drupalchat .statuso.Online {
+    color: green;
+}
+#drupalchat .statuso.Offline {
+    color: gray;
+}
+
+#drupalchat .subpanel ul {
+    background: #fff;
+}
+#drupalchat .subpanel ul {
+    border: 0;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+}
+#drupalchat ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#drupalchat .subpanel li {
+    background: #fff;
+}
+#drupalchat .subpanel li {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: static;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/*Contact List*/
+.userfiles{max-width:156px;padding: 4px 0 4px 0; border-radius: 7px;cursor: pointer;}
+a.download-link:before{
+    content: url('../../plugins/images/extension/blank.png');
+    margin-right: 6px;
+    vertical-align: middle;
+}
+a.download-link[href$='.doc']:before,
+a.download-link[href$='.rtf']:before,
+a.download-link[href$='.txt']:before  {
+    content: url('../../plugins/images/extension/doc.png');
+}
+a.download-link[href$='.docx']:before {
+    content: url('../../plugins/images/extension/docx.png');
+}
+a.download-link[href$='.zip']:before{
+    content: url('../../plugins/images/extension/zip.png');
+}
+a.download-link[href$='.rar']:before{
+    content: url('../../plugins/images/extension/rar.png');
+}
+a.download-link[href$='.mp3']:before{
+    content: url('../../plugins/images/extension/mp3.png');
+}
+a.download-link[href$='.mp4']:before,
+a.download-link[href$='.MP4']:before{
+    content: url('../../plugins/images/extension/mp4.png');
+}
+a.download-link[href$='.pdf']:before{
+    content: url('../../plugins/images/extension/pdf.png');
+}
+a.download-link[href$='.ppt']:before{
+    content: url('../../plugins/images/extension/ppt.png');
+}
+a.download-link[href$='.psd']:before{
+    content: url('../../plugins/images/extension/psd.png');
+}
+a.download-link[href$='.xls']:before {
+    content: url('../../plugins/images/extension/xls.png');
+}
+a.download-link[href$='.xlsx']:before  {
+    content: url('../../plugins/images/extension/xlsx.png');
+}
+a.download-link[href$='.xml']:before{
+    content: url('../../plugins/images/extension/xml.png');
+}
+
+
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    z-index: 10000;
+}
+#lightbox p {
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#lightbox #content {
+    vertical-align: middle;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#lightbox #content img {
+    box-shadow: 0 0 25px #111;
+    -webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;
+    max-width: 100%;
+    max-height: 550px;
+    border: 10px solid #95d9cc;
+    border-radius: 10px;
+}

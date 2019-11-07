@@ -1,0 +1,8 @@
+/*
+Theme Name: Material Design Theme
+Theme URI: https://bylancer.com/products/demo/classified/
+Author: Bylancer
+Version: 1.2
+Price: Free
+Description: Google Material Design Used in this theme to feel like android apps view.
+*/

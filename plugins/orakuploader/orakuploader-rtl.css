@@ -1,0 +1,21 @@
+.multibox{
+    float: right;
+}
+
+.uploadButton:active img{
+    right: 1px;
+}
+
+.orakuploaderFileInput{
+    right: -50px;
+}
+
+.picture_delete{
+    right: 120px;
+    left: auto;
+}
+
+.rotate_picture{
+    right: 95px;
+    left: auto;
+}
